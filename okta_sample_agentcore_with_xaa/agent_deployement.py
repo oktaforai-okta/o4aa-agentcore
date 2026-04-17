@@ -18,7 +18,7 @@ from boto3.session import Session
 
 # Create boto3 session
 boto_session = Session()
-region = boto_session.region_name or os.getenv("AWS_DEFAULT_REGION", "us-east-1")
+region = boto_session.region_name or os.getenv("AWS_DEFAULT_REGION", "us-east-2")
 
 agentcore_runtime = Runtime()
 agent_name = "okta_sample_agentcore_with_xaa"
