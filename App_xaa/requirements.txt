@@ -19,8 +19,8 @@ bedrock-agentcore==0.1.0
 # Werkzeug (Flask dependency - explicitly pinned)
 Werkzeug==3.0.1
 
-# Production WSGI Server
-gunicorn==21.2.0
+# Production WSGI server (Render, etc.)
+gunicorn==23.0.0
 
 
 

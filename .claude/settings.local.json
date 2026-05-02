@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(curl -s --connect-timeout 5 https://pypi.org/simple/)",
+      "Bash(./venv/bin/pip install:*)",
+      "Bash(brew list:*)",
+      "Bash(/bin/bash:*)"
+    ]
+  }
+}
