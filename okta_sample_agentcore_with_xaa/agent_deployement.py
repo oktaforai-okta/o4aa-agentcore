@@ -56,7 +56,7 @@ try:
         }.items()
         if v is not None
     }
-    launch_result = agentcore_runtime.launch(env_vars=env_vars)
+    launch_result = agentcore_runtime.launch(env_vars=env_vars, auto_update_on_conflict=True)
 except Exception as e:
     print("Error launching AgentCore runtime:", repr(e))
     print("Traceback:")
